@@ -6,10 +6,10 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
     <div>
       {total ? (
         <StatList>
-          <StatItem>good: {good}</StatItem>
-          <StatItem>neutral: {neutral}</StatItem>
-          <StatItem>bad: {bad}</StatItem>
-          <StatItem>total: {total}</StatItem>
+          <StatItem>Good: {good}</StatItem>
+          <StatItem>Neutral: {neutral}</StatItem>
+          <StatItem>Bad: {bad}</StatItem>
+          <StatItem>Total: {total}</StatItem>
           <StatItem>Positive feedback: {positivePercentage}%</StatItem>
         </StatList>
       ) : (
